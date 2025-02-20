@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        int c = 3;
-        int resultado = (a * b * c);
+        float a = 1.5f;
+        float c = 3.2f;
+        float resultado = (c%a);
 
-        System.out.println("o resultado da multiplicação de " +a+ "," +b+ "," +c+ " é:" + resultado);
+        System.out.println("o resultado é:" + resultado);
     }
 }
